@@ -353,6 +353,5 @@
 }
 .ant-btn.ant-btn-loading:not(.ant-btn-circle):not(.ant-btn-circle-outline):not(.ant-btn-icon-only) {
   position: relative;
-  /* padding-left: 29px; */
   pointer-events: none;
 }

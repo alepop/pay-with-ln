@@ -10,4 +10,21 @@ A simple Web Component button that giving you abillity to trigger LND payment re
 ## Using this component
 
 ### Script tag
-Todo...
+
+- Put a script tag similar to this `<script src='https://unpkg.com/pay-with-ln@0.0.1/dist/pay-with-ln.js'></script>` in the head of your index.html
+- Then you can use the element anywhere in your template, JSX, html etc
+
+### Node Modules
+- Run `npm install pay-with-ln --save`
+- Put a script tag similar to this `<script src='node_modules/pay-with-ln/dist/pay-with-ln.js'></script>` in the head of your index.html
+- Then you can use the element anywhere in your template, JSX, html etc
+
+### In a stencil-starter app
+- Run `npm install pay-with-ln --save`
+- Add an import to the npm packages `import pay-with-ln;`
+- Then you can use the element anywhere in your template, JSX, html etc
+
+Then add this to your html/jsx file (replace payment-request data with your invoice)
+```
+<pay-with-ln payment-request="lnbc1pw2uhctpp5p7e6ru568ry6w9ecxn0288gdt65ehdxqmaqchn0xnye09vxvu5qsdqjgdhkven9v5s8g6tsyycqzpgxq97zvuqfh2drun3d9p57nxzj6rmhupnqly84kkte0vxjgqmsz99y2g4aat58xpnc9967kkycnfylx4vrc94ns87cym2y3uu7evc3ecaq26qjhgpeyv6wr"></pay-with-ln>
+```
