@@ -13,9 +13,9 @@ A simple Web Component button that giving you abillity to trigger LND payment re
 
 - Put a script tag in the head of your index.html 
 ```
-<script
-   src='https://unpkg.com/pay-with-ln@0.0.1/dist/pay-with-ln.js'
-  integrity="sha384-0gE98IqUZdWHtdgtLOnon/9r/4abSzW18MBIYvk58FWgOGLgtZT3XEnB1GcpA3Fy"
+<script 
+  src="https://unpkg.com/pay-with-ln@0.1.0/dist/pay-with-ln.js" 
+  integrity="sha384-Uid8n0M8dpAoE1SOQOXOcMfDy9hvqtSp+A3xMFilQn+Z6fxsnmCayPVP8na5vdAv"
   crossorigin="anonymous">
 </script>
 ```
